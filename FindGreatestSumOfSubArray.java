@@ -3,7 +3,6 @@
 *    解题思路：判断数组中连续子数组是否大于0 ，如果小于0则不用与后面的元素相加，保存当前元素即可，如果大于0则将连续子数组与当前元素相加
 *
 * */
-
 public class FindGreatestSumOfSubArray {
     public static int FindGreatestSumOfSubArray(int[] array) {
         if (array.length==0 || array==null) {
